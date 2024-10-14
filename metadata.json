@@ -1,5 +1,5 @@
 {
-  "name": "puppet-iscsidsc",
+  "name": "webalex-iscsidsc",
   "version": "1.0.0",
   "author": "webalex",
   "summary": "FORK-DSC resources for configuring Windows iSCSI Targets and Initiators.",
