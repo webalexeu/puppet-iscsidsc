@@ -72,7 +72,6 @@ Puppet::ResourceApi.register_type(
     dsc_sessionidentifier: {
       type: 'Optional[String]',
       desc: 'This is the current session identifier for this target session.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'String',
@@ -90,7 +89,6 @@ Puppet::ResourceApi.register_type(
     dsc_connectionidentifier: {
       type: 'Optional[String]',
       desc: 'This is the current connection identifier for this target connection.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'String',
@@ -153,7 +151,6 @@ Puppet::ResourceApi.register_type(
     dsc_isdiscovered: {
       type: 'Optional[Boolean]',
       desc: 'Is the target discovered in this session.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'Boolean',
@@ -180,7 +177,6 @@ Puppet::ResourceApi.register_type(
     dsc_initiatornodeaddress: {
       type: 'Optional[String]',
       desc: 'The Initiator Node address assigned to this session.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'String',
@@ -189,7 +185,6 @@ Puppet::ResourceApi.register_type(
     dsc_targetnodeaddress: {
       type: 'Optional[String]',
       desc: 'The Target Node address assigned to this session.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'String',
@@ -198,7 +193,6 @@ Puppet::ResourceApi.register_type(
     dsc_isconnected: {
       type: 'Optional[Boolean]',
       desc: 'Is the target connected to the server.',
-      behaviour: :read_only,
       mandatory_for_get: false,
       mandatory_for_set: false,
       mof_type: 'Boolean',
