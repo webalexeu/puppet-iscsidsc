@@ -1,0 +1,42 @@
+{
+  "name": "puppet-iscsidsc",
+  "version": "1.0.0",
+  "author": "webalex",
+  "summary": "FORK-DSC resources for configuring Windows iSCSI Targets and Initiators.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/webalexeu/iSCSIDsc",
+  "project_page": "https://github.com/webalexeu/iSCSIDsc",
+  "issues_url": "https://github.com/webalexeu/iSCSIDsc/issues",
+  "dependencies": [
+    {
+      "version_requirement": ">= 0.6.1 < 2.0.0",
+      "name": "puppetlabs/pwshlib"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2012",
+        "2012R2",
+        "2016",
+        "2019",
+        "2022"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.0.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "3.3.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#main",
+  "template-ref": "tags/3.3.0.1-0-g6e8b9b0",
+  "tags": [
+    "windows",
+    "puppetdsc",
+    "dsc"
+  ]
+}
