@@ -1,4 +1,21 @@
-## [2.0.0-preview0003] - 2021-01-21
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## Release 1.0.2 (2025-01-02)
+
+[Full Changelog](https://github.com/webalexeu/puppet-windows_port_forwarding/compare/v1.0.1...v1.0.2)
+
+**Features**
+
+- Code cleaning
+
+**Bugfixes**
+
+**Known Issues**
+
+
+## [1.0.1] - 2021-01-21
 
 ### Changed
 
