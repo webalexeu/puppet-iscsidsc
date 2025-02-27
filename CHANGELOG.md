@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.1.0 (2025-02-27)
+
+[Full Changelog](https://github.com/webalexeu/puppet-windows_port_forwarding/compare/v1.0.2...v1.1.0)
+
+**Features**
+
+**Bugfixes**
+
+- Backport autoload fix [Fix autoload issue by replacing require to require_relative](https://github.com/puppetlabs/Puppet.Dsc/pull/308)
+
+**Known Issues**
+
+
 ## Release 1.0.2 (2025-01-02)
 
 [Full Changelog](https://github.com/webalexeu/puppet-windows_port_forwarding/compare/v1.0.1...v1.0.2)
