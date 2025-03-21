@@ -1,6 +1,6 @@
 {
   "name": "webalex-iscsidsc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "webalex",
   "summary": "FORK-DSC resources for configuring Windows iSCSI Targets and Initiators.",
   "license": "Apache-2.0",

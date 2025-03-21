@@ -15,6 +15,17 @@ Puppet::ResourceApi.register_type(
       desc:      'Description of the purpose for this resource declaration.',
       behaviour: :namevar,
     },
+    validation_mode: {
+      type:      'Enum[property, resource]',
+      desc:      'Whether to check if the resource is in the desired state by property (default) or using Invoke-DscResource in Test mode (resource).',
+      behaviour: :parameter,
+      default:   'property',
+    },
+    dsc_timeout: {
+      type:     'Optional[Integer]',
+      desc:     'The maximum time in seconds to wait for the DSC resource to complete.',
+      behaviour: :parameter,
+    },
     dsc_targetname: {
       type: 'String',
       desc: 'Specifies the name of the iSCSI target.',
