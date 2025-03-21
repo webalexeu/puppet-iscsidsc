@@ -2,9 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.0.3 (2025-03-21)
+
+[Full Changelog](https://github.com/webalexeu/puppet-iscsidsc/compare/v1.0.2...v1.0.3)
+
+**Features**
+
+**Bugfixes**
+
+- Add missing validation_mode parameter
+
+**Known Issues**
+
 ## Release 1.0.2 (2025-01-02)
 
-[Full Changelog](https://github.com/webalexeu/puppet-windows_port_forwarding/compare/v1.0.1...v1.0.2)
+[Full Changelog](https://github.com/webalexeu/puppet-iscsidsc/compare/v1.0.1...v1.0.2)
 
 **Features**
 
