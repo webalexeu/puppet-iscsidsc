@@ -1,12 +1,12 @@
 {
   "name": "webalex-iscsidsc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "webalex",
   "summary": "FORK-DSC resources for configuring Windows iSCSI Targets and Initiators.",
   "license": "Apache-2.0",
-  "source": "https://github.com/webalexeu/iSCSIDsc",
-  "project_page": "https://github.com/webalexeu/iSCSIDsc",
-  "issues_url": "https://github.com/webalexeu/iSCSIDsc/issues",
+  "source": "https://github.com/webalexeu/puppet-iscsidsc",
+  "project_page": "https://github.com/webalexeu/puppet-iscsidsc",
+  "issues_url": "https://github.com/webalexeu/puppet-iscsidsc/issues",
   "dependencies": [
     {
       "version_requirement": ">= 0.6.1 < 2.0.0",
