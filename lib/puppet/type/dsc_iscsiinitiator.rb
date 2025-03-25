@@ -7,8 +7,8 @@ Puppet::ResourceApi.register_type(
   dscmeta_module_name: 'iSCSIDsc',
   dscmeta_module_version: '2.0.0',
   docs: 'The DSC iSCSIInitiator resource type.
-         Automatically generated from version 2.0.0',
-  features: ['simple_get_filter', 'canonicalize'],
+         Automatically generated from version 6.0.1',
+  features: ['simple_get_filter', 'canonicalize', 'custom_insync'],
   attributes: {
     name: {
       type:      'String',

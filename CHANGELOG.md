@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.0.4 (2025-03-25)
+
+[Full Changelog](https://github.com/webalexeu/puppet-iscsidsc/compare/v1.0.3...v1.0.4)
+
+**Features**
+
+**Bugfixes**
+
+- Fix validation_mode parameter
+
+**Known Issues**
+
 ## Release 1.0.3 (2025-03-21)
 
 [Full Changelog](https://github.com/webalexeu/puppet-iscsidsc/compare/v1.0.2...v1.0.3)
